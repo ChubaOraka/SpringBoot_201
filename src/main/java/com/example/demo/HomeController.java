@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
-    @RequestMapping("/loadform")
+    @RequestMapping("/")
     public String loadFormPage() {
         return "formtemplate";
     }
